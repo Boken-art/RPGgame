@@ -42,7 +42,7 @@ public class DungenMove extends ComandReader {
 
     }
 
-    public void storyTell(int story) {
+    public void dungeon () {
         if (x==1 && y==0 || x== -1 && y==0 )
         {
 
@@ -81,7 +81,7 @@ public class DungenMove extends ComandReader {
         }
         else if (x==10 && y==0 || x== -10 && y==0)
         {
-//todo per final
+//todo  final
         }
         else if (x==0 && y==0 )
         {
